@@ -23,9 +23,10 @@ main {
 
 .pokemon-img {
   position: absolute;
-  bottom: 31rem;
-  left: 13rem;
-  height: 13rem;
+  bottom: 55%;
+  left: 50%;
+  transform: translate(-63%, 20%);
+  height: 18%;
 }
 
 .pokedex {
@@ -94,10 +95,3 @@ main {
   font-size: 1.3rem;
 }
 
-@media (max-width: 375px) {
-  .pokemon-img {
-    height: 10rem;
-    bottom: 28rem;
-    left: 12rem;
-  }
-}
