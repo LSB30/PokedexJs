@@ -24,7 +24,7 @@ main {
 .pokemon-img {
   position: absolute;
   bottom: 31rem;
-  left: 14rem;
+  left: 13rem;
   height: 13rem;
 }
 
@@ -35,11 +35,11 @@ main {
 
 .pokemon-data {
   position: absolute;
-  font-weight: 600;
+  font-weight: 700;
   color: #aaa;
   top: 54%;
   right: 27%;
-  font-size: clamp(0.8rem, 3vw, 2rem);
+  font-size: clamp(1.6rem, 3vw, 2rem);
 }
 
 .pokemon-name {
@@ -92,4 +92,12 @@ main {
 .button:active {
   box-shadow: inset -4px 4px 0 #222;
   font-size: 1.3rem;
+}
+
+@media (max-width: 375px) {
+  .pokemon-img {
+    height: 10rem;
+    bottom: 28rem;
+    left: 12rem;
+  }
 }
